@@ -1,0 +1,39 @@
+body{
+    font-family:"Georgia, 'Times New Roman', Times, serif";background-image: url(../assets/images/ripples.png)
+}
+
+.row_head {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+.burrows_head {
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    background: white;
+    min-height: calc(100vh - 270px);
+}
+
+.MyPic {
+    float: left;
+    height: 200px;
+    width: 200px;  
+    margin: 30px;
+  }
+
+footer {
+    border-top: 8px solid;
+    border-color: #4aaaa5;
+    background: #666666;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
