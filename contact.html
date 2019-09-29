@@ -11,10 +11,10 @@
 </head>
 
 <body>
-        
+
     <!--This is my header, need to make blue and add 3 links in Nav bar to other sections of my portfolio-->
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
     <div class="row row_head">
                 <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-color:white"></div>
     
@@ -39,46 +39,100 @@
     </div>
     
     <br>
+    <br> -->
+
+    <header>
+        <div class="header-inner d-flex justify-content-around" style="background-color:white">
+            <span>Taylor Burrows</span>
+
+            <div>
+                <a class="About" href="index.html">About</a>
+                <a class="Contact" href="contact.html">Contact</a>
+                <a class="Portfolio" href="portfolio.html">Portfolio</a>
+            </div>
+        </div>
+    </header>
+    <br>
     <br>
 
     <div class="container">
-          
-        <div class="row" style="background-color: white">
-            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h1 style="color: teal; border-bottom: gray">Contact</h1>
-            </div>
 
-            <div class="row">
-                <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2"></div>    
-                <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
+        <div class="row" style="background-color:white">
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <div class="titleAboutMe" style="color:#4aaaa5">
+                    <h1>Contact</h1>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row" style="background-color: white">
+                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h1 style="color: teal; border-bottom: gray">Contact</h1>
+                </div> -->
+
+        <div class="row" style="background-color:white">
+            <!-- <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> -->
+            <div class="col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <div class="form_style">
+                    <form id="contact-info" method="POST" action></form>
+                </div>
+                <p style="color: #777777">Name</p>
+                <input name="name" class="form_style" type="text">
+            </div>
+        </div>
+
+        <div class="row" style="background-color:white">
+            <!-- <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> -->
+            <div class="col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <p style="color: #777777">Email</p>
+                <input name="email" class="form_style" type="text">
+            </div>
+        </div>
+
+        <div class="row" style="background-color:white">
+            <!-- <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1"></div> -->
+            <div class="col-sm-11 col-md-11 col-lg-11 col-xl-11">
+                <p style="color: #777777">Message</p>
+                <textarea name="message" class="form_style" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="row" style="background-color:white">
+            <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1">
+                <input type="submit" class="submit" value="Submit">
+            </div>
+        </div>
+
+        <!-- <div class="col-sm-10 col-md-10 col-lg-10 col-xl-10">
                         <form>
                             <div class="form-group">
-                              <label for="exampleInputName1">Name</label>
-                              <input type="name" class="form-control" id="exampleInputName1" aria-describedby="NameHelp" placeholder="Enter name">
+                                <label for="exampleInputName1">Name</label>
+                                <input type="name" class="form-control" id="exampleInputName1"
+                                    aria-describedby="NameHelp" placeholder="Enter name">
                             </div>
 
                             <div class="form-group">
-                              <label for="exampleInputEmail1">Email</label>
-                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Email Address">
+                                <label for="exampleInputEmail1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter Email Address">
                             </div>
 
                             <div class="form-group">
-                                    <label for="exampleFormControlTextarea1">Message</label>
-                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                                  </div>
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
 
                             <button type="submit" class="btn btn-primary" style="background-color:teal">Submit</button>
 
-                          </form>
-                        </div>
-            </div>
-
-    
-        </div>
+                        </form>
+                    </div> -->
     </div>
 
+
+    <!-- </div>
+    </div> -->
+
     <footer>
-            Copyright&#174;
+        Copyright&#174;
     </footer>
 
 </body>

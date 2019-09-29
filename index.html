@@ -11,10 +11,10 @@
 </head>
 
 <body>
-        
-    <!--This is my header, need to make blue and add 3 links in Nav bar to other sections of my portfolio-->
 
-    <div class="row row_head">
+    <!--This is my header, need to make blue and add 3 links in Nav bar to other sections of my portfolio-->
+    <!--Try this for header https://getbootstrap.com/docs/4.3/utilities/flex/-->
+    <!-- <div class="row row_head">
                 <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="background-color:white"></div>
     
                 <div class="col-sm-1 col-md-1 col-lg-1 col-xl-1" style="background-color:#4aaaa5">
@@ -36,60 +36,77 @@
                 </div>
 
                 <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2" style="background-color:white"></div>
+            </div> -->
+
+    <header>
+        <div class="header-inner d-flex justify-content-around" style="background-color:white">
+            <span>Taylor Burrows</span>
+
+            <div>
+                <a class="About" href="index.html">About</a>
+                <a class="Contact" href="contact.html">Contact</a>
+                <a class="Portfolio" href="portfolio.html">Portfolio</a>
             </div>
-    
+        </div>
+    </header>
     <br>
     <br>
 
     <div class="container">
-          
+
         <div class="row" style="background-color:white">
 
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                <h1 style="color:teal">Contact</h1>
+                <div class="titleAboutMe" style="color:#4aaaa5">
+                    <h1>About Me</h1>
+                </div>
             </div>
 
-            <div class="col-sm-6 col-md-12 col-lg-12 col-xl-12">
-                    <section>
-                            <div class="MyPic">
-                                <img src="https://via.placeholder.com/200" alt="Taylor Burrows Image Here">
-                                </div>
-                                <div class="textAboutMe">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem eget odio molestie
-                                        pellentesque. Aliquam faucibus leo ut viverra pharetra. Vivamus vel nulla et velit dignissim
-                                        scelerisque ac in purus. Aenean lacinia nisi non nunc lacinia, nec lobortis quam viverra. Cras
-                                        pretium nisl id justo elementum tristique. Suspendisse efficitur mauris at sem bibendum, eget ornare
-                                        nisi egestas. Mauris diam arcu, venenatis congue magna nec, congue dignissim mauris. Ut ut orci
-                                        vitae lectus consequat varius quis quis nulla. Praesent quis magna ullamcorper, convallis erat non,
-                                        sagittis sem.
-                                    </p>
-                    
-                                    <p>Fusce et vulputate felis. Praesent at metus nisi. Donec varius ante et pulvinar ultrices. Suspendisse
-                                        eget massa magna. Integer eu tempus ipsum. Donec auctor auctor nulla, sed cursus quam venenatis et.
-                                        Nullam pellentesque turpis turpis, ut sollicitudin diam semper eu. Aliquam et eleifend sapien. Nunc
-                                        ultrices nibh a turpis tempor fermentum. In eu ipsum non ipsum vestibulum tincidunt a fringilla
-                                        orci. Praesent ut turpis feugiat, cursus tellus eget, volutpat leo. Pellentesque ullamcorper diam
-                                        lacus, et facilisis sem lacinia interdum. Aliquam erat volutpat. In hac habitasse platea dictumst.
-                                    </p>
-                    
-                                    <p>Nam molestie ex non rhoncus malesuada. In dignissim tellus quis tellus fringilla, id eleifend odio
-                                        dignissim. Nunc mi odio, rhoncus vel dapibus sed, porta at leo. In pharetra lorem arcu, eget
-                                        ultricies elit hendrerit scelerisque. Proin consequat turpis hendrerit odio facilisis, sed varius
-                                        diam consectetur. Sed condimentum, sem blandit blandit dignissim, ante lectus posuere est, volutpat
-                                        placerat risus ex quis purus. Curabitur sollicitudin ornare vulputate. Suspendisse potenti.
-                                    </p>
-                                </div>
-                            
-                        </section>
-            </div>    
-            
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <section>
+                    <div class="MyPic">
+                        <img src="../Bootstrap_Portfolio/Assets/Images/Screen Shot 2019-09-28 at 12.55.52 PM.png"
+                            alt="Taylor Burrows Image Here">
+                    </div>
+                    <div class="textAboutMe">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac lorem eget odio molestie
+                            pellentesque. Aliquam faucibus leo ut viverra pharetra. Vivamus vel nulla et velit dignissim
+                            scelerisque ac in purus. Aenean lacinia nisi non nunc lacinia, nec lobortis quam viverra.
+                            Cras
+                            pretium nisl id justo elementum tristique. Suspendisse efficitur mauris at sem bibendum,
+                            eget ornare
+                            nisi egestas. Mauris diam arcu, venenatis congue magna nec, congue dignissim mauris. Ut ut
+                            orci
+                            vitae lectus consequat varius quis quis nulla. Praesent quis magna ullamcorper, convallis
+                            erat non,
+                            sagittis sem.
+                        </p>
+
+                        <p>Fusce et vulputate felis. Praesent at metus nisi. Donec varius ante et pulvinar ultrices.
+                            Suspendisse
+                            eget massa magna. Integer eu tempus ipsum. Donec auctor auctor nulla, sed cursus quam
+                            venenatis et.
+                            Nullam pellentesque turpis turpis, ut sollicitudin diam semper eu. Aliquam et eleifend
+                            sapien. Nunc
+                            ultrices nibh a turpis tempor fermentum. In eu ipsum non ipsum vestibulum tincidunt a
+                            fringilla
+                            orci. Praesent ut turpis feugiat, cursus tellus eget, volutpat leo. Pellentesque ullamcorper
+                            diam
+                            lacus, et facilisis sem lacinia interdum. Aliquam erat volutpat. In hac habitasse platea
+                            dictumst.
+                        </p>
+                    </div>
+
+                </section>
+            </div>
+
         </div>
     </div>
 
     <footer>
-            Copyright&#174;
+        Copyright&#174;
     </footer>
-    
+
 </body>
 
 

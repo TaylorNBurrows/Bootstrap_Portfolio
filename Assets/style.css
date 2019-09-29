@@ -1,5 +1,70 @@
+html {
+    position: relative;
+    min-height: 100%;
+ }
+
 body{
-    font-family:"Georgia, 'Times New Roman', Times, serif";background-image: url(../assets/images/ripples.png)
+    font-family:"Georgia, 'Times New Roman', Times, serif";background-image: url(../assets/images/ripples.png);
+    margin: 0 0 150px;
+}
+
+#tealHeader {
+    background-color: white;
+}
+
+.header-inner {
+    width: 100%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+.header-inner > span {  
+    background-color: #4aaaa5;
+    font-weight: bold;
+    font-size: 24px;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.About, .Contact{
+    color: #777777;
+    border-right: solid #cccccc ; 
+    padding: 0 20px;
+}
+
+.form {
+    width: 100%;
+    display: block;
+    color: #777777;
+}
+
+
+.form_style {
+    width: 100%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+
+.form_style p{
+    color: #777777;
+}
+/* contact form overflow fix */
+#Contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.Portfolio { 
+    color: #777777;
+    padding: 0 20px;
 }
 
 .row_head {
@@ -16,21 +81,61 @@ h1 {
     font-weight: bold;
 }
 
+.titleAboutMe {
+    padding-bottom: 10px;
+    border-bottom: 2px #cccccc solid;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+}
+
 section {
     background: white;
     min-height: calc(100vh - 270px);
 }
 
 .MyPic {
-    float: left;
-    height: 200px;
-    width: 200px;  
+    float: left;  
     margin: 30px;
   }
+
+.MyPic img {
+    float: left; 
+    height: 400px;
+    width: 300px;
+}
+
+.Portfolio-image p{
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    background-color: #4aaaa5;
+    color: white;
+    width: 200px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.Portfolio-image img{
+    width: 200px;
+    height: 200px;
+}
+
+.Portfolio-image{
+    width: 50%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    position: relative;
+    justify-content: center;
+}
+
 
 footer {
     border-top: 8px solid;
     border-color: #4aaaa5;
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
     background: #666666;
     color: white;
     text-align: center;
